@@ -9,6 +9,7 @@ class Recipe extends Model
     protected $casts = [
         'ingredients' => 'array'
     ];
+    
 
     public function user()
     {
