@@ -14,10 +14,11 @@
                     
                 </div>
 
-                
-                <a href="/post/create" class="btn btn-primary">Add new Post</a>
-                
-                <a href="/profile/{{ $user->id }}/edit" class="btn btn-primary">Edit Profile</a>
+                @can('update', $user->profile)
+                    <a href="/post/create" class="btn btn-primary">Add new Post</a>
+                    
+                    <a href="/profile/{{ $user->id }}/edit" class="btn btn-primary">Edit Profile</a>
+                @endcan
 
                 
             </div>
