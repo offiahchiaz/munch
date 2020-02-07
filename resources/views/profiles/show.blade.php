@@ -3,9 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row">
-        {{-- <div class="col-3 p-5">
+        <div class="col-3 p-5">
             <img src="{{ $user->profile->profileImage() }}" class="rounded-circle w-100" alt="">
-        </div> --}}
+        </div>
 
         <div class="col-9 pt-5">
             <div class="d-flex justify-content-between align-items-baseline">
@@ -29,7 +29,7 @@
             <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
             <div>
                 {{-- {{ $user->profile->description }} --}}
-                We're a global community of millions of people learning to code together. We're an open source, donor-supported, 501(c)(3) nonprofit.
+                {{-- We're a global community of millions of people learning to code together. We're an open source, donor-supported, 501(c)(3) nonprofit. --}}
             </div>
         </div>
     </div>
