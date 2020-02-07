@@ -28,7 +28,7 @@
             </div>
             <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
             <div>
-                {{-- {{ $user->profile->description }} --}}
+                {{ $user->profile->description }}
                 {{-- We're a global community of millions of people learning to code together. We're an open source, donor-supported, 501(c)(3) nonprofit. --}}
             </div>
         </div>
